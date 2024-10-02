@@ -1,5 +1,5 @@
 [consolidatorService.config]
-kafka.profile=172.18.0.5
+kafka.profile=172.18.0.2
 kafka.port=9092
 # IP and Port of the Kafka bootstrap node
 #KAFKA_BOOTSTRAP_NODE = "kafka.${kafka.profile}:${kafka.port}"
