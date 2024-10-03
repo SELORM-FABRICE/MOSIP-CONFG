@@ -2,8 +2,8 @@
 # Flag to check whether to enable/disable security
 SECURITY_ON = true
 
-kafka.profile= localhost
-kafka.port= 9092
+kafka.profile= "localhost"
+kafka.port= "9092"
 
 
 
