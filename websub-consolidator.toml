@@ -3,7 +3,7 @@ kafka.profile=localhost
 kafka.port=9092
 # IP and Port of the Kafka bootstrap node
 #KAFKA_BOOTSTRAP_NODE = "kafka.${kafka.profile}:${kafka.port}"
-KAFKA_BOOTSTRAP_NODE = "PLAINTEXT://localhost:9092"
+KAFKA_BOOTSTRAP_NODE = "localhost:9092"
 
 # Kafka topic which will get notified for websub topic registration/deregistration
 # All the hubs must be pointed to the same Kafka topic to notify websub topic registration/deregistration
